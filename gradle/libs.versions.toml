@@ -42,7 +42,6 @@ adventure-text-serializer-plain = { module = "net.kyori:adventure-text-serialize
 
 [bundles]
 adventure = ["adventure-api", "adventure-text-minimessage", "adventure-text-serializer-plain"]
-configurate = ["configurate-yaml", "configurate-gson"]
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
