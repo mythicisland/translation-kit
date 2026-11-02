@@ -40,7 +40,7 @@ internal class CachedTranslator(private val options: TranslationOptions) : Trans
 
     override fun translate(component: TranslatableComponent, locale: Locale): Component? {
         if ((depth.get() ?: 0) >= MAXIMUM_DEPTH) {
-            return null
+            return Component.text(component.key())
         }
         val translated = translate(component.key(), locale, component.arguments()) ?: return null
         if (component.style().isEmpty && component.children().isEmpty()) {
