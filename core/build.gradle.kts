@@ -1,6 +1,6 @@
 plugins {
     id("i18n.publishing-conventions")
-    id("me.champeau.jmh")
+    id("i18n.benchmark-conventions")
 }
 
 dependencies {
