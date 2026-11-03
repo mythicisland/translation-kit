@@ -8,7 +8,7 @@ slf4j = "2.0.20"
 # Plugins
 jmh = "0.7.4"
 kraken = "1.1.1"
-spotless = "8.10.4"
+spotless = "8.11.0"
 detekt = "2.0.0-alpha.6"
 
 # Formatting
